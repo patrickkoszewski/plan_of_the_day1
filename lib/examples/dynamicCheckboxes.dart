@@ -42,7 +42,7 @@ class _MainViewState extends State<MainView> {
           children: const [
             Text('Dynamic Checkboxes'),
             Text(
-              '@CodeWithFlexz',
+              '@CodeWithCzerony',
               style: TextStyle(
                   color: Colors.grey,
                   fontSize: 13,
