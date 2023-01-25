@@ -47,7 +47,7 @@ class _FinalViewState extends State<FinalView> {
       onTap: () => FocusManager.instance.primaryFocus!.unfocus(),
       child: Scaffold(
         appBar: AppBar(
-          title: const Text('CodeWithFlexz'),
+          title: const Text('CodeWithCzerony'),
         ),
         body: Column(
           children: [
