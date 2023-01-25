@@ -50,7 +50,7 @@ class _FinalViewState extends State<FinalView> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('CodeWithFlexz')),
+      appBar: AppBar(title: const Text('CodeWithCzerony')),
       body: selectedDateRange == null
           ? const Center(
               child: Text(
