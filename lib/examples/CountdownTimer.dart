@@ -51,7 +51,7 @@ class _FinalViewState extends State<FinalView> with TickerProviderStateMixin {
               "Count Down Timer",
             ),
             Text(
-              "@CodeWithFlexz",
+              "@CodeWithCzerony",
               style: TextStyle(fontWeight: FontWeight.w300, fontSize: 15),
             ),
           ],
