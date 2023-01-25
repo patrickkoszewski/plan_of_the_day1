@@ -19,10 +19,6 @@ class MyApp extends StatelessWidget {
   }
 }
 
-//? CodeWithFlexz on Instagram
-
-//* AmirBayat0 on Github
-//! Programming with Flexz on Youtube
 
 class FinalView extends StatefulWidget {
   const FinalView({Key? key}) : super(key: key);
