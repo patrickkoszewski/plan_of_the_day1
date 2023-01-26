@@ -1,8 +1,5 @@
 import 'package:flutter/material.dart';
-
-import 'examples/passwordStrengthChecker.dart';
-
-
+import 'package:flutter_example/examples/SQLite%20CRUD%20Example/main.dart';
 
 void main() {
   runApp(const MyApp());
@@ -20,3 +17,4 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+
