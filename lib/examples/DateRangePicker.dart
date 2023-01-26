@@ -13,19 +13,19 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Flutter Custom TabBar',
       theme: ThemeData(useMaterial3: true),
-      home: const HomePage(),
+      home: const DateRangePicker(),
     );
   }
 }
 
-class HomePage extends StatefulWidget {
-  const HomePage({super.key});
+class DateRangePicker extends StatefulWidget {
+  const DateRangePicker({super.key});
 
   @override
-  State<HomePage> createState() => _HomePageState();
+  State<DateRangePicker> createState() => _DateRangePickerState();
 }
 
-class _HomePageState extends State<HomePage> {
+class _DateRangePickerState extends State<DateRangePicker> {
   List<String> tabs = [
     "Popular",
     "Most Visited",

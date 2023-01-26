@@ -1,33 +1,24 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-void main() {
-  runApp(const MyApp());
-}
+/* 
+Tutaj nazwa klasy jak w większości przypadków była nazwana FinalView, 
+zmieniłem ją na CustomTabBar żeby było wiadomo o jaki plik chodzi,
+dzięki czemu mogę się do niej odwołać w HomePage:
 
-class MyApp extends StatelessWidget {
-  const MyApp({Key? key}) : super(key: key);
+Jak zmienić nazwę klasy?
+kliknąć na nazwę klasy > nacisnąć F2 i wpisać nową nazwę żeby zamieniła się 
+dla wszystkich przypadków w tym pliku
+*/
 
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        primarySwatch: Colors.deepPurple,
-      ),
-      home: const FinalView(),
-    );
-  }
-}
-
-class FinalView extends StatefulWidget {
-  const FinalView({Key? key}) : super(key: key);
+class CustomTabBar extends StatefulWidget {
+  const CustomTabBar({Key? key}) : super(key: key);
 
   @override
-  State<FinalView> createState() => _FinalViewState();
+  State<CustomTabBar> createState() => _CustomTabBarState();
 }
 
-class _FinalViewState extends State<FinalView> {
+class _CustomTabBarState extends State<CustomTabBar> {
   DateTimeRange? selectedDateRange;
 
   void _show() async {

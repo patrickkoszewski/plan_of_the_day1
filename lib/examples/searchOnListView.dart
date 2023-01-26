@@ -15,13 +15,13 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.pink,
       ),
-      home: const HomePage(),
+      home: const searchOnListView(),
     );
   }
 }
 
-class HomePage extends StatelessWidget {
-  const HomePage({Key? key}) : super(key: key);
+class searchOnListView extends StatelessWidget {
+  const searchOnListView({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
